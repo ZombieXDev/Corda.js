@@ -273,8 +273,8 @@ class Gateway extends EventEmitter {
         intents: this.intents,
         properties: {
           $os: process.platform,
-          $browser: "Corda", // اسم مكتبتك
-          $device: "Corda", // اسم مكتبتك
+          $browser: "Corda", 
+          $device: "Corda", 
         },
         ...(this.presence ? { presence: this.presence } : {}),
         ...(this.shard ? { shard: this.shard } : {}),
