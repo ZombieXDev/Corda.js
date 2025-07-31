@@ -23,4 +23,10 @@
     "@types/ws": "^8.18.1",
     "typescript": "^5.8.3"
   }
+
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/ZombieXDev/Corda.js"
+}
+
 }
