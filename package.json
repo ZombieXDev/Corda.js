@@ -1,0 +1,26 @@
+{
+  "name": "corda.js",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["discord", "bot", "library", "typescript", "javascript"],
+  "author": "ZombieXDev",
+  "license": "MIT",
+  "description": "Modern and flexible Discord bot library for TypeScript and JavaScript.",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.8.3"
+  }
+}
