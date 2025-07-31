@@ -44,7 +44,7 @@ class RestManager {
             const headers = {
                 Authorization: `Bot ${this.token}`,
                 "Content-Type": "application/json",
-                "User-Agent": "DiscordBot (yourlib, 1.0.0)",
+                "User-Agent": "DiscordBot (Corda, 0.0.1)",
             };
             const options = {
                 method,
